@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="min-h-screen" style={{ backgroundColor: 'var(--bg-deep)' }}>
       <Routes>
-        <Route path="/" element={<LoginPage />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/legacy" element={<LandingPage />} />
         <Route path="/story" element={<StoryPage />} />
